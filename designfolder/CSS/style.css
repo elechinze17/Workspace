@@ -1,0 +1,122 @@
+header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 22rem 1fr 22rem;
+    align-items: center;
+    padding: .75rem 5rem;
+    font-size: .875rem;
+}
+
+.search-bar {
+    display: flex;
+    width: 100%;
+}
+
+body{
+    font-family: 'Nunito sans', sans-serif;
+    margin: 0 10%;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.click li{
+    display: inline;
+    text-indent: 50px;
+}
+.click li+li::before .location{
+    content: " / ";
+}
+.click a:hover{
+    color: blueviolet;
+}
+.click li.attribute a{
+    color: darkgrey;
+}
+.click li.attribute::after{
+    
+    color:blueviolet
+}
+.block-color{
+    width: 650px;
+    height: 150px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 20px;
+    background: lightblue;
+}
+
+.text-panel{
+    width: 650px;
+    height: 150px;
+    border: 1px solid yellow;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 20px;
+    background: whitesmoke;
+}
+.container{
+    width: 650px;
+    height: 700px;
+    border: 10px solid cornsilk ;
+    box-sizing: border-box;
+    border-radius: 35px;
+    padding: 25px;
+
+}
+.color-panelpink{
+    width: 600px;
+    height: 150px;
+    border: 10px solid pink;
+    box-sizing:border-box;
+    border-radius: 35px;
+    padding: 20px;
+    background: pink;
+    
+
+}
+.color-panelcool-blue{
+    width: 600px;
+    height: 150px;
+    border: 10px solid cornflowerblue;
+    box-sizing:border-box;
+    border-radius:35px;
+    padding: 20px;
+    background: cornflowerblue;
+    
+
+}
+.color-panelmint-green{
+    width: 600px;
+    height: 150px;
+    border: 10px solid mediumspringgreen;
+    box-sizing:border-box;
+    border-radius:  35px;
+    padding: 20px;
+    background: mediumspringgreen;
+}
+
+
+.color-panelbeige{
+    width: 600px;
+    height: 150px;
+    border: 10px solid beige;
+    box-sizing:border-box;
+    border-radius:35px;
+    padding: 20px;
+    background: beige;
+    
+
+}
+.div {
+    background-image: url(../resources/code.jpg);
+}
+img{
+    height: 100px;
+    width: 650px;
+    
+}

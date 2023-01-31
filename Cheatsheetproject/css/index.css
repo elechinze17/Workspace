@@ -1,0 +1,32 @@
+body {
+    font-family: Georgia, sans-serif;
+    background-color: lightgrey;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    color: blue;
+    text-align: center;
+  }
+  
+  table {
+    border: 2px solid black;
+    width: 650px;
+    margin: 0 auto;
+  }
+  
+  thead {
+    background-color: forestgreen;
+  }
+  
+  td {
+    border-top: 1px solid darkgreen;
+  }
+  
+  .tag {
+    font-family: monospace;
+    background-color: yellow;
+  } 
